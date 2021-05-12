@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Fund Transfer</title>
+</head>
+<body>
+<a href="Userhome.html">Go Back</a><br><br>
+<form action="Fundtrans" method="post">
+<table border="1" align="center" width="400" bgcolor="#CCCCCC">
+<caption>Fund Transfer</caption>
+Beneficiery Type : Saving Account<br>
+<tr>
+<th>Beneficiery Account No.</th>
+<td><input type="number" name="baccno" maxlength="15"
+					 placeholder="Enter Account Number"/></td>
+</tr>
+<tr>
+<th>IFSC Code</th>
+<td><input type="number" name="ifsc" maxlength="6"
+					 placeholder="Enter IFSC"/></td>
+</tr>
+<tr>
+<th>Beneficiery Name</th>
+<td><input type="text" name="bname" maxlength="30"
+					 placeholder="Enter Name"/></td>
+</tr>
+<tr>
+<th>Amount To Be Transfered</th>
+<td><input type="number" name="tamt" maxlength="30"
+					 placeholder="Enter Amount"/></td>
+</tr>
+<tr>
+<td colspan="2" align="center"><input type="submit"
+					value="Submit" />
+<input type="reset" value="Reset Data" />
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>
